@@ -2,7 +2,7 @@ ld-linux-x86-64.so.2
 libc.so.6
 libcrypto.so.3
 libgcc_s.so.1
-libjuice.so.1.4.2
+libjuice.so.1.5.1
 libm.so.6
 libsrtp2.so.1
 libssl.so.3
