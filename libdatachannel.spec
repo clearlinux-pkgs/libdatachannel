@@ -7,7 +7,7 @@
 #
 Name     : libdatachannel
 Version  : 0.21.2
-Release  : 5
+Release  : 6
 URL      : https://github.com/paullouisageneau/libdatachannel/archive/v0.21.2/libdatachannel-0.21.2.tar.gz
 Source0  : https://github.com/paullouisageneau/libdatachannel/archive/v0.21.2/libdatachannel-0.21.2.tar.gz
 Summary  : No detailed summary available
