@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : libdatachannel
-Version  : 0.22.1
-Release  : 11
-URL      : https://github.com/paullouisageneau/libdatachannel/archive/v0.22.1/libdatachannel-0.22.1.tar.gz
-Source0  : https://github.com/paullouisageneau/libdatachannel/archive/v0.22.1/libdatachannel-0.22.1.tar.gz
+Version  : 0.22.2
+Release  : 12
+URL      : https://github.com/paullouisageneau/libdatachannel/archive/v0.22.2/libdatachannel-0.22.2.tar.gz
+Source0  : https://github.com/paullouisageneau/libdatachannel/archive/v0.22.2/libdatachannel-0.22.2.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : MPL-2.0-no-copyleft-exception
@@ -72,15 +72,15 @@ license components for the libdatachannel package.
 
 
 %prep
-%setup -q -n libdatachannel-0.22.1
-cd %{_builddir}/libdatachannel-0.22.1
+%setup -q -n libdatachannel-0.22.2
+cd %{_builddir}/libdatachannel-0.22.2
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1729808670
+export SOURCE_DATE_EPOCH=1730130346
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -117,7 +117,7 @@ FFLAGS="$CLEAR_INTERMEDIATE_FFLAGS"
 FCFLAGS="$CLEAR_INTERMEDIATE_FCFLAGS"
 ASFLAGS="$CLEAR_INTERMEDIATE_ASFLAGS"
 LDFLAGS="$CLEAR_INTERMEDIATE_LDFLAGS"
-export SOURCE_DATE_EPOCH=1729808670
+export SOURCE_DATE_EPOCH=1730130346
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/libdatachannel
 cp %{_builddir}/libdatachannel-%{version}/LICENSE %{buildroot}/usr/share/package-licenses/libdatachannel/9744cedce099f727b327cd9913a1fdc58a7f5599 || :
@@ -181,7 +181,7 @@ popd
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/libdatachannel.so.0.22
-/usr/lib64/libdatachannel.so.0.22.1
+/usr/lib64/libdatachannel.so.0.22.2
 
 %files license
 %defattr(0644,root,root,0755)
