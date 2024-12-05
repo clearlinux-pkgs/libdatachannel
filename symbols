@@ -37,6 +37,7 @@ libdatachannel.so.0.22:rtc::Description::setFingerprint(rtc::CertificateFingerpr
 libdatachannel.so.0.22:rtc::Description::typeToString[abi:cxx11](rtc::Description::Type)
 libdatachannel.so.0.22:rtc::H264RtpDepacketizer::H264RtpDepacketizer(rtc::NalUnit::Separator)
 libdatachannel.so.0.22:rtc::H265NalUnitFragment::setFragmentType(rtc::H265NalUnitFragment::FragmentType)
+libdatachannel.so.0.22:rtc::H265RtpDepacketizer::H265RtpDepacketizer(rtc::NalUnit::Separator)
 libdatachannel.so.0.22:rtc::MediaHandler::MediaHandler()
 libdatachannel.so.0.22:rtc::MediaHandler::addToChain(std::shared_ptr<rtc::MediaHandler>)
 libdatachannel.so.0.22:rtc::MediaHandler::last()
